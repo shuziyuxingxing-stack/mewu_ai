@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./Assets/MewuAI.Icon.png" width="88" alt="喵呜AI" />
-  <h1>喵呜AI（MewuAI）— Windows AI 截图标注软件</h1>
-  <p>开源截图工具，支持 AI 原位标注、离线 OCR、截图翻译、长截图和录屏。</p>
+  <h1>喵呜AI（MewuAI）— Windows AI 识屏软件</h1>
+  <p>开源识屏工具，支持 AI 原位标注、离线 OCR、截图翻译、长截图、录屏、扫描二维码、注册登录时自动填充信息，以及各种便民MCP功能。</p>
   <p>
     <a href="https://github.com/abnste/mewu_ai/releases/tag/v0.7.2"><img src="https://img.shields.io/badge/公测版-v0.7.2-7C6CF0?style=flat-square" alt="v0.7.2 公测版" /></a>
     <img src="https://img.shields.io/badge/Windows-10_2004%2B-0078D4?style=flat-square" alt="Windows 10 2004 及以上，x64" />
@@ -15,7 +15,7 @@
   <p><strong>简体中文</strong> · <a href="./README.md">English</a> · <a href="./CHANGELOG.md">更新日志</a> · <a href="https://github.com/abnste/mewu_ai/issues">问题反馈</a></p>
 </div>
 
-**喵呜AI（MewuAI）是一款 Windows 开源 AI 截图标注软件**。框选屏幕区域、引用截图并提问后，支持图片理解的 AI 模型可以讲解内容、圈出重点或生成箭头、高亮等标注。回答与标注直接显示在原屏幕位置，核对后可连同截图一起保存。
+**喵呜AI（MewuAI）是一款 Windows 开源 AI 识屏软件**。框选屏幕区域、引用截图并提问后，支持图片理解的 AI 模型可以讲解内容、圈出重点或生成箭头、高亮等标注。回答与标注直接显示在原屏幕位置，核对后可连同截图一起保存。
 
 | 产品速览 | 说明 |
 | --- | --- |
@@ -47,6 +47,8 @@
 - **看图、看视频提问**：引用多张截图或附件继续追问，查看 AI 批注，点击回答中的时间跳到对应视频片段。
 - **选择你常用的 AI**：支持 API、Hermes、ChatGPT Work / Codex、WorkBuddy 和 MiniMax Code，可随时切换，记住上次选择。
 - **屏幕操作与 MCP 服务**：识别链接、邮箱地址和电话号码；连接 QQ 邮箱、网易邮箱、钉钉、飞书、ima 或 Obsidian，使用相应的邮件、分享及笔记功能。配置方法见[集成使用指南](./docs/mcp-integrations.md#中文)。
+-  **二维码识别**：识别QR包含的二维码，通过弹窗反馈识别结果。
+-   **注册登录信息自动填充**：在注册或登录界面圈选屏幕，点击自动填充，软件会自动将你预留的电话、邮箱、姓氏、名字、性别、出生年月等信息填充到注册页或登录页。
 
 截图、手工标注、贴图、文字识别和录屏无需配置 AI。翻译、表格提取及 AI 问答需要连接相应服务。
 
@@ -58,7 +60,6 @@
 - 更快的响应速度与更低的 token 消耗。
 - 多模态生成能力。
 - 音频理解能力。
-- 二维码识别与更多可操作内容类型。
 - 接入 Jev 决策模型。
 - AIGC 画布编辑。
 - 支持更多语言。
